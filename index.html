@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Website</title>
+    <!-- linking font awesome for icons -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+     <!-- Linking Font Swiper CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- header/navbar -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">☕The Sleepyhead Solution</h2>
+            </a>
+            <ul class="nav-menu">
+               <button id="menu-close-button" class="fa fa-times"></button>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+                
+                <button id="menu-open-button" class="fa-solid fa-bars"></button>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Hero section -->
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Best Coffee</h2>
+                    <h3 class="subtitle">Make your day great with our special coffee!</h3>
+                    <p class="description">Welcome to our coffee paradise, where every bean tells a story and every cup sparks joy.</p>
+                    <div class="buttons">
+                        <a href="#" class="button order-now">Order Now</a>
+                        <a href="#" class="button contact-us">Contact Us</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="https://png.pngtree.com/png-vector/20231213/ourmid/pngtree-cup-of-coffee-png-image_11294473.png"alt="" class="hero-image">
+                </div>
+            </div>
+        </section>
+        <!-- About section -->
+        <section class="about-section" id="about">
+            <div class="section-content">
+              <div class="about-image-wrappar">
+                <img src="https://www.shutterstock.com/image-photo/woman-long-hair-brown-maltipoo-600nw-2498670419.jpg" alt="About"
+                 class="about-image">
+              </div>
+              <div class="about-details">
+                <h2 class="section-title">About Us</h2>
+                <p class="text">At Coffee House in Berndorf,Germany, we pride 
+                    ourselves on being a go-to destination for coffee lovers and 
+                    conversation seekers alike.we're dedicated to providing an
+                    exceptional coffee experience in a cozy and inviting atmosphere,
+                    where guests can relax, unwind, and enjoy their time in comfort.
+                </p>
+                <div class="social-link-list">
+                    <a href="#" class="social-link-list"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="social-link-list"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-link-list"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+              </div>
+            </div>
+        </section>
+        <!-- Menu section -->
+         <section class="menu-section" id="menu">
+            <h2 class="section-title">Our Menu</h2>
+            <div class="menu-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/036/303/390/small_2x/ai-generated-steaming-coffee-cup-hot-beverage-illustration-transparent-background-coffee-mug-clipart-hot-drink-graphic-brewed-coffee-icon-cafe-latte-png.png"
+                         alt="Hot Beverages" class="menu-image">
+                         <h3 class="name">Hot Beverages</h3>
+                         <p class="text">wide range of steming hot coffee to make you fresh and light.</p>
+                    </li>
+
+                    <li class="menu-item">
+                        <img src="https://www.pngarts.com/files/11/Chocolate-Iced-Coffee-Transparent-Image.png"
+                         alt="Cold Beverages" class="menu-image">
+                         <h3 class="name">Cold Beverages</h3>
+                         <p class="text">Creamy and frothy cold coffee to make you cool.</p>
+                    </li>
+
+                    <li class="menu-item">
+                        <img src="https://png.pngtree.com/png-vector/20230928/ourmid/pngtree-kiwi-refresh-drink-png-image_10148840.png"
+                         alt="Refreshment" class="menu-image">
+                         <h3 class="name">Refreshment</h3>
+                         <p class="text">Fruit and refreshing drink to make feel refresh.</p>
+                    </li>
+
+                    <li class="menu-item">
+                        <img src="https://png.pngtree.com/png-vector/20241117/ourmid/pngtree-delicious-cheeseburger-combo-meal-png-image_14450676.png"
+                         alt="Special Combos" class="menu-image">
+                         <h3 class="name">Special Combos</h3>
+                         <p class="text">Your favorite eating and drinking combations.</p>
+                    </li>
+
+                    <li class="menu-item">
+                        <img src="https://www.pngplay.com/wp-content/uploads/13/Dessert-Download-Free-PNG.png"
+                         alt="Dessert" class="menu-image">
+                         <h3 class="name">Dessert</h3>
+                         <p class="text">Satiate your palate and take you on a culinary treat.</p>
+                    </li>
+
+                    <li class="menu-item">
+                        <img src="https://thumbs.wbm.im/pw/small/3b8bb9b477e2a104f046a290857a5256.png"
+                         alt="Burger & French Fries" class="menu-image">
+                         <h3 class="name">Burger & French Fries</h3>
+                         <p class="text">Quick bites to sotisfy your small size hunger.</p>
+                    </li>
+                </ul>
+            </div>
+         </section>
+         <!-- Testimonials section -->
+          <section class="testimonials-section" id="testimonials">
+            <h2 class="section-title">Testimonials</h2>
+            <div class="section-content">
+                <div class="slider-container swiper ">
+                    <div class="slider wrapper">
+                        <ul class="testimonials-list">
+                            <li class="testimonial swiper-slide ">
+                                <img src=" https://static.vecteezy.com/system/resources/thumbnails/044/453/324/small_2x/beautiful-young-latin-american-woman-portrait-woman-walking-in-evening-city-in-hat-with-curly-hair-in-warm-weather-smiling-and-looking-at-camera-close-up-photo.jpg " alt="User" class="user-image">
+                                <h3 class="name">Tiyasa Adhikary</h3>
+                                <i class="feedback">"Loved the French roast.Perfectly balanced and rich.Will order again!"</i>
+                            </li>
+
+                            <li class="testimonial swiper-slide">
+                                <img src=" https://media.istockphoto.com/id/1313502972/photo/portrait-of-beautiful-woman-having-fun.jpg?s=612x612&w=0&k=20&c=DHGWp3wIoSlpjK9xFdARpgpyo4t-hIzuqOSx5ZyRsHA= " alt="User" class="user-image">
+                                <h3 class="name">Tithi Sen</h3>
+                                <i class="feedback">"Great Espresso blend!Smooth and bold flavor.Fast shipping tool!"</i>
+                            </li>
+
+                            <li class="testimonial swiper-slide">
+                                <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOggZmh4f1DM_5dLK3FgmesLU6Ol-A53wFrkT59R6iy_E9qDhz8Lot90AjISIHlEDLkJc&usqp=CAU " alt="User" class="user-image">
+                                <h3 class="name"> Nidhi Pual</h3>
+                                <i class="feedback">"Fantastic mocha flavor,Fresh and aromatic.Quick shipping!"</i>
+                            </li>
+
+                            <li class="testimonial swiper-slide">
+                                <img src=" data:image/jpeg;base64,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" alt="User" class="user-image">
+                                <h3 class="name">Rick Das</h3>
+                                <i class="feedback">"Excellent quality! Fresh beans and quick delivery.Highly recomment."</i>
+                            </li>
+
+                            <li class="testimonial swiper-slide">
+                                <img src=" https://t4.ftcdn.net/jpg/03/15/05/99/360_F_315059912_hk9ffrrUpAp9iChw0F7UlUl2xAgIbM68.jpg" alt="User" class="user-image">
+                                <h3 class="name">Somnath Ghosh</h3>
+                                <i class="feedback">"Best decaf I've tried! Smooth and flavorful. Arrived Promptly"</i>
+                            </li>
+                        </ul>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+          </section>
+          <!-- Gallery section -->
+          <section class="gallery-section" id="gallery">
+            <h2 class="section-title">Gallery</h2>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="https://sumatocoffee.com/cdn/shop/articles/5-types-of-coffee-drinkers-2024-edition-493027.jpg?v=1713277644&width=1600" alt="Gallery" 
+                        class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/stressfreefullenglis_67721_16x9.jpg" alt="Gallery" 
+                        class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="https://images.healthshots.com/healthshots/en/uploads/2022/02/08134710/JUICES.jpg" alt="Gallery" 
+                        class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="https://www.southernliving.com/thmb/UW4kKKL-_M3WgP7pkL6Pb6lwcgM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Ham_Sandwich_011-1-49227336bc074513aaf8fdbde440eafe.jpg" 
+                        class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="https://www.chefkunalkapur.com/wp-content/uploads/2023/08/DSC03350-1-1300x731.jpg?v=1691318480" alt="Gallery" 
+                        class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="https://i0.wp.com/www.gayatravel.com.my/ver4/wp-content/uploads/2018/11/%E2%80%9CSamurai%E2%80%9D-Chocolate-Dessert.jpg?resize=1500%2C1000&ssl=1" alt="Gallery" 
+                        class="gallery-image">
+                    </li>
+                </ul>
+            </div>
+          </section>
+          <!-- Contact section -->
+           <section class="contact-section" id="contact">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>747/A/8 Uma Appertment, Sheoraphuli, Hooghly</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>tiyasaadhikary47@gmail.com</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(91)6294267210</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Monday-Sunday: <br> 09:00 AM - 10:00 PM</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-globe"></i>
+                        <p>www.thesleepyhead.com</p>
+                    </li>
+                </ul>
+                <form action="#" class="contact-form">
+                    <input type="text" placeholder="Your Name" class="form-input" required>
+                    <input type="email" placeholder="Your Email" class="form-input" required>
+                    <textarea placeholder="Your Message" class="form-input"required ></textarea>
+                    <button class="submit-button">Submit</button>
+                </form>
+            </div>
+           </section>
+           <!-- Footer section -->
+            <footer class="footer-section">
+                <div class="section-content">
+                    <p class="copyright-text">2030 Coffee Shop</p>
+
+                    <div class="social-link-list">
+                        <a href="#" class="social-link">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                    </div>
+
+                    <p class="policy-text">
+                        <a href="#" class="policy-link">Privacy Policy</a>
+                        <span class="separator">.</span>
+                        <a href="#" class="policy-link">Refund Policy</a>
+                    </p>
+                </div>
+            </footer>
+    </main>
+    <!--Linking Font Swiper Script  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--Linking Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
